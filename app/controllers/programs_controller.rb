@@ -2,7 +2,7 @@ class ProgramsController < ApplicationController
   def home
     # Your code goes below.
 
-    @your_output = "Replace this string with your output"
+    @your_output = "Boom Shakala"
 
     render("programs/home.html.erb")
   end
@@ -10,7 +10,7 @@ class ProgramsController < ApplicationController
   def first_program
     # Your code goes below.
 
-    @your_output = "Replace this string with your output"
+    @your_output = "Boom Shakala"
 
     render("programs/first_program.html.erb")
   end
@@ -18,7 +18,7 @@ class ProgramsController < ApplicationController
   def second_program
     # Your code goes below.
 
-    @your_output = "Replace this string with your output"
+    @your_output = "Woah"
 
     render("programs/second_program.html.erb")
   end
@@ -28,7 +28,7 @@ class ProgramsController < ApplicationController
 
     # Your code goes below.
 
-    @your_output = "Replace this string with your output"
+    @your_output = "Wowza"
 
     render("programs/third_program.html.erb")
   end
